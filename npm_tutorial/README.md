@@ -8,4 +8,4 @@
 packages. Packages can be found at npmjs.org
 
 `npm uninstall <<package_name>>`
-> Uninstalls the packages downloaded. Get the pacj=kage name from package.json
+> Uninstalls the packages downloaded. Get the package name from package.json
