@@ -1,0 +1,14 @@
+{
+  "name": "npm_noob_tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial for npm. Generated using npm init comand and this file provides metadata of the project. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bharath",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
