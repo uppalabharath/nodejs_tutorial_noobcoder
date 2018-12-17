@@ -1,2 +1,3 @@
 # dont track these folders
 /npm_tutorial/node_modules/
+/express_tutorial/node_modules/
