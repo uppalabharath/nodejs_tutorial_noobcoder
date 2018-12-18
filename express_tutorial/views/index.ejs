@@ -1,0 +1,26 @@
+<html>
+
+<body>
+    <% if(dummyData.loggedIn) { %>
+    <h2> You are logged in as
+        <%= dummyData.username %>
+        <% } %>
+
+        <h2>You searched for
+            <%= dummyData.userQuery %>
+        </h2>
+        Results:
+
+        <ul>
+            <% dummyData.searchResult.forEach( (result) => { %>
+            <li>
+                <%= result %>
+            </li>
+            <% }); %>
+        </ul>
+        <p> <b>Recommnded:
+                <%= dummyData.searchResult[0] %> </b> </p>
+
+</body>
+
+</html>
